@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BACKEND_URL = "http://localhost:3000";
+const BACKEND_URL = "https://facultiesomedicaps.onrender.com";
 const authToken =
   typeof window !== "undefined" ? localStorage.getItem("token") || "" : "";
 axios.defaults.headers.common.Authorization = authToken
